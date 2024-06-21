@@ -1,0 +1,18 @@
+#separacion{
+    margin-left: 40px;
+    
+}
+#agregarCompañia {
+    margin-left: auto; /* Esto alinea el div a la derecha */
+    margin-right: 20px; /* Ajusta este valor según sea necesario */
+  }
+  
+  #agregarCompañia button {
+    /* Agrega cualquier estilo adicional para el botón dentro de .agregarCompañia */
+  }
+ 
+  #botonElegir {
+    background-color: rgba(0, 255, 0, 0.7); /* Verde con 50% de opacidad */
+    border-radius: 4px; /* Esquinas redondeadas */
+
+  }

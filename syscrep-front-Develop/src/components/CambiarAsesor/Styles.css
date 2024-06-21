@@ -1,0 +1,44 @@
+#separacion{
+    margin-left: 0px;
+}
+#separacion_entre_botones{
+    margin-left: -3px;
+
+}
+#pagination{
+  width: 50%;
+}
+#botones {
+    display: flex; /* Para usar el modelo de caja flexible y alinear los botones en la misma línea */
+    border: none;
+  }
+  #tabla-container {
+    width: calc(100% - 0px); /* O el ancho deseado para la tabla */
+    table-layout: fixed;
+  }
+  
+  #tabla-container table {
+    width: 100%;
+    table-layout: fixed; /* Fija el ancho de la tabla */
+  }
+  
+  #tabla-container td {
+    max-width: 100px;
+    width: 100px; /* Fija el ancho de las celdas */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .showProyect{
+    width: 100%; /* Fija el ancho de las celdas */
+    margin-right: 0px;
+
+  }
+  #paginationContainer {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px; /* Ajusta según sea necesario */
+  }
+  
+  #pagination {
+    margin: 0; /* Ajusta según sea necesario */
+  }

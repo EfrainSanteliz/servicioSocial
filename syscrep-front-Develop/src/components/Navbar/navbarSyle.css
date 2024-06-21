@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #12322a;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar h2 {
+  margin: 0;
+  margin-left: 80px; 
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.btn-logout {
+  background-color: transparent; /* Fondo transparente */
+  color: #fefefe; /* El color del texto */
+  border: transparent; /* Borde del color deseado */
+  border-radius: 5px; /* Esquinas redondeadas */
+  padding: 0.375rem 0.75rem; /* Espaciado interno */
+  font-size: 14px; /* Tamaño del texto */
+  transition: all 0.2s; /* Transición suave para efectos de interacción */
+}
+
+.btn-logout:hover {
+  background-color: transparent; /* Cambia el fondo al pasar el mouse */
+  color: #3b3b3b; /* Cambia el color del texto al pasar el mouse */
+  border: transparent; /* Borde del color deseado */
+}

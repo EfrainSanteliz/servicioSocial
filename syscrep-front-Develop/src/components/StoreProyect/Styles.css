@@ -1,0 +1,19 @@
+#separacion{
+    margin-left:50px;
+}
+#fixed-header {
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start; /* botón a la izquierda */
+    padding: 0px;
+  }
+
+  
+  #botonElegir {
+    background-color: rgba(0, 80, 255, 0.7); /* Verde con 50% de opacidad */
+    border-radius: 4px; /* Esquinas redondeadas */
+
+  }

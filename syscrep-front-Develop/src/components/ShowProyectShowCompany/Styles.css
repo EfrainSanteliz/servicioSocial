@@ -1,0 +1,16 @@
+/* Styles.css */
+
+/* Define your styles here */
+.tabla-container {
+    /* padding: 50px; */
+    font-family: "montserrat";
+  }
+  
+  .separacion {
+    /* Add any additional styles for the separacion class */
+    margin-left:50px;
+  }
+  
+  .small-text {
+    font-size: 10px; /* Adjust the font size as needed */
+  }

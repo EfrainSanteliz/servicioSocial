@@ -1,0 +1,44 @@
+/* styles.css */
+.boton-asignar {
+    margin-right: 10px; /* Espacio entre los botones */
+}
+
+.boton-evaluar {
+    margin-right: 10px; /* Agrega estilos personalizados para el botón Evaluar */
+}
+.margen{
+    margin-right: 10px; 
+}
+.label-with-margin {
+    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+}
+.encabezado label,
+.encabezado input {
+    margin-bottom: 10px; /* Puedes ajustar este valor según tus preferencias */
+}
+
+.tabla-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 100vh; /* Esto centrará verticalmente la tabla en la página */
+}
+
+.tabla-container {
+    position: relative;
+}
+
+.encabezado {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior según tus preferencias */
+    left: 10px; /* Ajusta la distancia desde la izquierda según tus preferencias */
+}
+.tdEstado{
+    width: 180px !important;
+}
+
+.expediente-img {
+    width: 50px;
+    height: 50px;
+}
+

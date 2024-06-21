@@ -1,0 +1,198 @@
+/* Agrega espacio entre los botones */
+.Asignar {
+  margin-right: 10px;
+}
+
+#main-student {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 58px;
+  transition: margin-left 0.5s ease; /* Transición suave del margen izquierdo */
+}
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar:hover + #main-student {
+  margin-left: 100px;
+}
+
+.asignar_estudiantes_modal_container {
+  overflow: visible !important;
+  z-index: 99 !important;
+}
+
+.form-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto; /* Esto centrará el contenedor */
+}
+
+.form-container .btn-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-container .btn-group .btn {
+  margin: 0 10px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-group .btn.active,
+.form-container .btn-group .btn:hover {
+  background-color: #007bff;
+  color: #fff;
+  z-index: -0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.form-group .form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-container button[type="submit"] {
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.card-stats {
+  padding: 15px 15px 0px;
+}
+
+#row {
+  margin-left: 20px;
+}
+
+#AsignarCarreras {
+  margin-left: 20px;
+}
+
+.top-content {
+  padding: 25px;
+}
+
+.card-stats {
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  height: 100%;
+}
+
+.filas {
+  padding: 30px;
+}
+
+#main-espediente {
+  margin-left: 54px;
+  padding: 1px;
+  width: 80%;
+  margin-top: -40px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #000;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+.contenedor-cargando {
+  display: flex;
+  align-items: center; /* Alinea verticalmente */
+  justify-content: center; /* Alinea horizontalmente */
+}
+
+.p-cargando {
+  margin-right: 10px; /* Espacio entre el texto y el spinner */
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: margin-left 0.5s ease;
+}
+
+.sidebarACP {
+  position: fixed;
+  height: 100%;
+  z-index: 1000; /* Asegura que el sidebar esté por encima del navbar */
+}
+
+.content-wrapper {
+  width: 100%;
+  z-index: 500;
+  transition: margin-left 0.5s ease;
+}
+
+.navbar {
+  width: 100%;
+  z-index: 500; /* Asegura que el navbar esté por debajo del sidebar */
+  transition: margin-left 0.5s ease; /* Transición suave del margen izquierdo */
+}
+
+.content {
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  transition: margin-left 0.5s ease; /* Transición suave del margen izquierdo */
+}
+
+.sidebarACP:hover ~ .content-wrapper {
+  margin-left: 5px; /* Desplazamiento cuando el sidebar es hover */
+}
+
+.sidebarACP:hover ~ .content-wrapper .navbar {
+  margin-left: 100px; /* Ajusta el margen del navbar cuando el sidebar está en hover */
+}
+
+.sidebarACP:hover ~ .content-wrapper .content {
+  margin-left: 100px; /* Ajusta el margen del contenido cuando el sidebar está en hover */
+}

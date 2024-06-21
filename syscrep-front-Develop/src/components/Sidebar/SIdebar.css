@@ -1,0 +1,58 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 100%;
+    background-color: #12322a;
+    overflow: hidden;
+    transition: width 0.5s;
+  }
+  
+  .sidebar:hover {
+    width: 200px;
+  }
+  
+  .tab {
+    padding: 8px;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 10px; /* Añade espacio en la parte superior */
+    margin-bottom: 10px; /* Añade espacio en la parte inferior */
+  }
+  
+  .tab:hover {
+    background-color: #555;
+  }
+
+  .sidebar .tab img {
+    width: 20px;  /* Asegura que la imagen ocupe todo el ancho de la pestaña */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 0;    /* Elimina cualquier borde que pueda tener la imagen */
+    transform: translateX(5px); /* Mueve la imagen 10px a la izquierda */
+  }
+
+  .sidebar .tab svg {
+    width: 23px; /* Aumenta el tamaño del svg */
+    height: auto;
+    fill: currentColor;
+    transform: translateX(10px); /* Mueve la imagen 10px a la izquierda */
+  }
+  .Sidetext span {
+    padding-left: 20px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    visibility: hidden;
+  }
+
+  .Sidetext{
+    display: flex;         /* Habilita Flexbox */
+    align-items: center;   /* Centra los elementos verticalmente */
+    justify-content: start
+  }
+
+  .sidebar:hover .Sidetext span {
+    visibility: visible;
+  }

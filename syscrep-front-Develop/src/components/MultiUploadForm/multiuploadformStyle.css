@@ -1,0 +1,22 @@
+.multi-upload-form {
+    display: flex; /* Convierte el contenedor en un contenedor flex */
+    justify-content: space-between; /* Alinea los hijos (secciones de subida) horizontalmente y les añade espacio entre ellos */
+    align-items: stretch; /* Alinea los hijos en el centro a lo largo del eje transversal */
+    width: 100%;
+    max-width: 900px; /* Ajusta según sea necesario */
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #000;
+    margin-top: 200px;
+  }
+  
+  .upload-section {
+    width: 30%; /* Ajusta según sea necesario */
+  }
+  
+  .upload-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }

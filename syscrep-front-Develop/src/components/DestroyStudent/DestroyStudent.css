@@ -1,0 +1,38 @@
+.Agregar_Estudiante{
+    margin-left: 50px;
+    font-size: 18px; /* Ajusta el tamaño de las letras según tus necesidades */
+    margin-bottom: 10px; /* Ajusta el espacio debajo del elemento según tus necesidades */
+}
+.NewStudents{
+    margin-left: 60px;
+}
+.Matricula{
+    margin-bottom: 20px;
+}
+.Nombre{
+    margin-bottom: 20px;
+}
+.Apellido{
+    margin-bottom: 20px;
+}
+.btnmodal{
+    margin-left: 140px;
+}
+.btncerrarmodal{
+    margin-left: 160px;
+
+
+}
+.search-container {
+    display: flex;
+    
+    align-items: center;
+    /* Ajusta el espaciado y otros estilos según tus preferencias */
+  }
+
+  .InputNumeroDeControl{
+    margin-right: 20px;
+  }
+  .tabla{
+    margin-left: 50px;
+  }

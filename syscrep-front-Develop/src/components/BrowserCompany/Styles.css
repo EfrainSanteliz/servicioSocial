@@ -1,0 +1,27 @@
+.divContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+  }
+  .form-label{
+    margin-right: 20px;
+
+  }
+  
+  .inputField {
+    width: 200px;
+    margin-right: 10px; /* Espacio entre el campo de entrada y el botón */
+  }
+  
+  .searchButton {
+    padding: 8px 12px; /* Ajusta el espaciado del botón según sea necesario */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+  }

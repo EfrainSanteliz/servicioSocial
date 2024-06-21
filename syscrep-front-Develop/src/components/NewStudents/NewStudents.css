@@ -1,0 +1,27 @@
+.Agregar_Estudiante{
+    font-size: 18px; /* Ajusta el tamaño de las letras según tus necesidades */
+    margin-bottom: 10px; /* Ajusta el espacio debajo del elemento según tus necesidades */
+}
+.NewStudents{
+    margin-left: 160px;
+}
+.Matricula{
+    margin-bottom: 20px;
+}
+.Nombre{
+    margin-bottom: 20px;
+}
+.Apellido{
+    margin-bottom: 20px;
+}
+.btnmodal{
+    margin-left: 140px;
+}
+.btncerrarmodal{
+    margin-left: 160px;
+
+
+}
+.tabla{
+    margin-left:70px;
+}

@@ -1,0 +1,52 @@
+.Alumnos-body{
+  background-color: #EBEDEF;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Cambiado a flex-start para que el contenido se alinee desde la parte superior */
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.main-content {
+  width: 100%;
+padding-left: 50px;
+}
+
+.sidebar:hover   + .main-content {
+  margin-left: 150px; 
+  transition: margin-left 0.5s ease; /* Transición suave del margen izquierdo */
+
+}
+
+
+.sidebar + .main-content{
+  transition: margin-left 0.5s ease;
+}
+
+.sidebar{
+  width: 100px; /* Ajusta esto al ancho deseado */
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  
+}
+
+.cuerpo{
+padding-top: 50px;
+padding-left: 40px;
+padding-right: 30px;
+
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  width: 61em !important;
+  max-width: 100%;
+
+}
+
+.separacion{
+  margin-left:0px;
+}
+
+
+
+

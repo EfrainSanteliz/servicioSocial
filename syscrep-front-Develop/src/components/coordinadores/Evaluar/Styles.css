@@ -1,0 +1,90 @@
+.txtContenido textarea {
+    width: 400px;
+    height: 200px;
+    vertical-align: top;
+    margin-Right: 65px;
+  }
+
+.txtEstatus{
+    margin-Right: '10px';
+}
+
+.btnEnviar {
+    
+    background-color: rgb(13, 110, 253);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 10px; /* Aumenta el espaciado interno para alinear el texto correctamente */
+    cursor: pointer;
+    height: auto; /* Restaura la altura automática para que se ajuste al contenido */
+    line-height: 1; /* Restaura la altura de línea predeterminada */
+  }
+
+
+.btnEstatus input {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center; /* Alinea el botón verticalmente en el centro */
+    margin-right: 20px; /* Agrega margen entre el contenido y el botón */
+}
+
+.button-container {
+    display: flex;
+    align-items: center; /* Alinea el botón verticalmente en el centro */
+    margin-right: 20px; /* Agrega margen entre el contenido y el botón */
+}
+
+.container {
+    text-align: right;
+}
+
+.centered-button {
+    margin-top: -150px; /* Ajusta el margen superior según tu preferencia */
+    margin-right: 20px; /* Ajusta el margen derecho según tu preferencia */
+    display: inline-block;
+}
+
+
+
+.txtControl_number {
+  margin-right: 10px; /* Agrega margen derecho al label para separarlo del campo de texto */
+}
+
+.texBoxControl_number {
+    margin-right: 200px; /* Agrega margen derecho al label para separarlo del campo de texto */
+  }
+/* Oculta la lista desplegable por defecto */
+#selectEstatus {
+    display: none;
+  }
+  
+  /* Estilo para el botón desplegable */
+  #botonDesplegable {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo para la lista desplegable cuando está visible */
+  #selectEstatus.show {
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .custom-input {
+    width: 400px; /* Cambia el ancho como desees */
+    height: 300px; /* Cambia la altura como desees */
+    margin-Right: 65px;
+    text-align: top; /* Hace que el texto comience desde la parte superior */
+    /* Otros estilos, si es necesario */
+  }
+
+
+
+
+

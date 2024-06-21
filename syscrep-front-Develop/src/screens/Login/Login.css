@@ -1,0 +1,181 @@
+.body {
+    background-color: #EBEDEF;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.image {
+  width: 60%;
+  height: 60%;
+  margin-left: 15%;
+  padding: 15px;
+  margin-bottom: 10%;
+}
+    
+  h1 > a {
+      text-decoration:none;
+      color:#fff !important;
+  }
+
+  .Alumno-bg {
+    background-image: url(../../assets/ITH.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 75px 95px;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    color: #ffffff;
+  }
+  
+  .Coordinador-bg {
+    background-image: url(../../assets/ITHcoord.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 75px 95px;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    color: #ffffff; 
+  }
+  
+  .intro-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Ajusta el valor alpha (0.5 en este caso) para controlar la intensidad del filtro oscuro */
+}
+
+  
+   
+  
+  .brand-wrapper .logo {
+    height: 35px; }
+  
+  @media (max-width: 767px) {
+    .brand-wrapper {
+      margin-bottom: 35px; } }
+  
+  .intro-content-wrapper {
+    width: 410px;
+    max-width: 100%;
+    margin-top: auto;
+    margin-bottom: auto; }
+    .intro-content-wrapper .intro-title {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 17px; }
+    .intro-content-wrapper .intro-text {
+      font-size: 19px;
+      line-height: 1.37; }
+    .intro-content-wrapper .btn-read-more {
+      background-color: #fff;
+      padding: 13px 30px;
+      border-radius: 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000; }
+      .intro-content-wrapper .btn-read-more:hover {
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff; }
+  
+  @media (max-width: 767px) {
+    .intro-section-footer {
+      margin-top: 35px; } }
+  
+  .intro-section-footer .footer-nav a {
+    font-size: 20px;
+    font-weight: bold;
+    color: inherit; }
+    @media (max-width: 767px) {
+      .intro-section-footer .footer-nav a {
+        font-size: 14px; } }
+    .intro-section-footer .footer-nav a + a {
+      margin-left: 30px; }
+  
+  .form-section {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center; }
+    @media (max-width: 767px) {
+      .form-section {
+        padding: 35px; } }
+  
+  .login-wrapper {
+    width: 300px;
+    max-width: 100%; }
+    @media (max-width: 575px) {
+      .login-wrapper {
+        width: 100%; } }
+    .login-wrapper .form-control {
+      border: 0;
+      border-bottom: 1px solid #e7e7e7;
+      border-radius: 0;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 25px 25px;
+      margin-bottom: 7px; }
+      .login-wrapper .form-control::-webkit-input-placeholder {
+        color: #b0adad; }
+      .login-wrapper .form-control::-moz-placeholder {
+        color: #b0adad; }
+      .login-wrapper .form-control:-ms-input-placeholder {
+        color: #b0adad; }
+      .login-wrapper .form-control::-ms-input-placeholder {
+        color: #b0adad; }
+      .login-wrapper .form-control::placeholder {
+        color: #b0adad; }
+  
+  .login-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px; }
+  
+  .login-btn {
+    flex: 1;
+    padding: 13px 30px;
+    background-color: #393939;
+    border-radius: 50;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff; }
+    .login-btn:hover {
+      border: 1px solid #000;
+      background-color: transparent;
+      color: #000; }
+  
+
+    .brand-wrapper{
+        z-index: 1;
+    }
+
+    .btn-aaron {
+      border-radius: 0px;
+      border-bottom: solid;
+      font-weight: 650;
+  }
+    
+  .btn-group{
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .user-btn:hover{
+    color:gray;
+    border-radius: 0px;
+    border-bottom: solid;
+  }

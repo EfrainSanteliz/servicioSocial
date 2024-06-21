@@ -1,0 +1,19 @@
+#tabla{
+    width: 100%;
+}
+#tablaShowProyectSinNavbar {
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#botonCancelar {
+    background-color: rgba(255, 0, 0, 0.7); /* Rojo con 50% de opacidad */
+    border-radius: 4px; /* Esquinas redondeadas */
+
+  }
+  
+  #botonElegir {
+    background-color: rgba(0, 255, 0, 0.7); /* Verde con 50% de opacidad */
+    border-radius: 4px; /* Esquinas redondeadas */
+
+  }
